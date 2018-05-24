@@ -1,7 +1,7 @@
 USE codeup_test_db;
 
 
-SELECT name AS 'a.All albums in your table' FROM albums;
+SELECT name AS 'a.All albums in your table' FROM albums ;
 SELECT name AS 'b.All albums released before 1980' FROM albums WHERE release_date >1980;
 SELECT name AS 'c.All albums by Michael Jackson' FROM albums WHERE artist='Michael Jackson';
 UPDATE albums SET sales=(sales*10);
